@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="page-hero">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.date | date: "%-d %B %Y" }}</p>
+  </div>
+</div>
+
+<div class="container page-content">
+  {{ content }}
+  <p><a href="{{ '/newsletters/' | relative_url }}">&larr; All newsletters</a></p>
+</div>

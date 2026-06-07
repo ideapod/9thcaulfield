@@ -1,0 +1,74 @@
+---
+layout: default
+title: Home
+description: >-
+  9th Caulfield Scout Group — Joeys, Cubs, Scouts, Venturers and Rovers
+  meeting in Murrumbeena, Victoria. Girls and boys welcome.
+---
+
+<section class="home-hero">
+  <div class="container">
+    <h1>Adventure starts here.</h1>
+    <p>9th Caulfield Scout Group has been part of the Murrumbeena community since 1951.
+    Girls and boys of all ages welcome — come along and see what Scouting is all about.</p>
+    <a href="/contact/" class="btn btn-primary">Get in touch</a>
+    <a href="/about/" class="btn btn-outline">Our story</a>
+  </div>
+</section>
+
+<section class="sections-intro">
+  <div class="container">
+    <h2>Find your section</h2>
+    <p>We have a section for every age from 5 to 26. All sections meet at our hall at
+    20 Ricourt Avenue, Murrumbeena.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="sections-grid">
+
+    <div class="section-card">
+      <img src="/assets/images/joeybadge.jpg" alt="Joey Scouts badge">
+      <h3>Joeys</h3>
+      <p class="age-range">Ages 5–7</p>
+      <p class="meeting-time">Mondays<br>5:30 – 6:30 pm</p>
+    </div>
+
+    <div class="section-card">
+      <img src="/assets/images/scoutsbadge.jpg" alt="Cub Scouts badge">
+      <h3>Cubs</h3>
+      <p class="age-range">Ages 8–10</p>
+      <p class="meeting-time">Mondays<br>7:00 – 8:30 pm</p>
+    </div>
+
+    <div class="section-card">
+      <img src="/assets/images/scoutbadge2.jpg" alt="Scouts badge">
+      <h3>Scouts</h3>
+      <p class="age-range">Ages 11–14</p>
+      <p class="meeting-time">Tuesdays<br>7:15 – 9:15 pm</p>
+    </div>
+
+    <div class="section-card">
+      <img src="/assets/images/venturerbadge.jpg" alt="Venturer Scouts badge">
+      <h3>Venturers</h3>
+      <p class="age-range">Ages 15–18</p>
+      <p class="meeting-time">Tuesdays<br>7:30 – 9:30 pm</p>
+    </div>
+
+    <div class="section-card">
+      <img src="/assets/images/rovers.jpg" alt="Rover Scouts photo">
+      <h3>Rovers</h3>
+      <p class="age-range">Ages 18–26</p>
+      <p class="meeting-time">Tuesdays<br>7:30 – 10:00 pm</p>
+    </div>
+
+  </div>
+</div>
+
+<section class="home-cta">
+  <div class="container">
+    <h2>Ready to join?</h2>
+    <p>Contact us to arrange a visit — no commitment, just come along and see if it's right for you.</p>
+    <a href="/contact/" class="btn btn-primary">Contact us</a>
+  </div>
+</section>

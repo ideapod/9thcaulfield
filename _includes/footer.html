@@ -1,0 +1,31 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <h3>9th Caulfield Scout Group</h3>
+      <p>Proudly serving the Murrumbeena community since 1951.<br>
+      Part of <a href="https://scoutsvictoria.com.au" target="_blank" rel="noopener">Scouts Victoria</a>.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Get in Touch</h3>
+      <p>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+        {{ site.address }}
+      </p>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+        <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
+        <li><a href="{{ '/hall-hire/' | relative_url }}">Hall Hire</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
+        <li><a href="{{ '/newsletters/' | relative_url }}">Newsletters</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} 9th Caulfield Scout Group. Be Prepared.</p>
+    </div>
+  </div>
+</footer>

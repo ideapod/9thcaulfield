@@ -1,0 +1,40 @@
+title: 9th Caulfield Scout Group
+description: >-
+  Joeys, Cubs, Scouts, Venturers and Rovers meeting in Murrumbeena, Victoria.
+  Girls and boys welcome — come along for adventure, friendship and skills for life.
+url: "https://9thcaulfieldscouts.org.au"
+baseurl: ""
+
+email: gl.9thcaulfield@scoutsvictoria.com.au
+address: "20 Ricourt Avenue, Murrumbeena VIC 3163"
+
+# Collections
+collections:
+  newsletters:
+    output: true
+    permalink: /newsletters/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "newsletters"
+    values:
+      layout: newsletter
+
+# Exclude source files from built site
+exclude:
+  - 9thcaulfieldscouts.org.au/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins (GitHub Pages whitelist only)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap

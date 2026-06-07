@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <span class="site-title-main">9th Caulfield</span>
+      <span class="site-title-sub">Scout Group</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About Us</a></li>
+        <li><a href="{{ '/events/' | relative_url }}"{% if page.url contains '/events' %} class="active"{% endif %}>Events</a></li>
+        <li><a href="{{ '/hall-hire/' | relative_url }}"{% if page.url contains '/hall-hire' %} class="active"{% endif %}>Hall Hire</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="active"{% endif %} class="nav-cta">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  var toggle = document.querySelector('.nav-toggle');
+  var nav = document.getElementById('site-nav');
+  toggle.addEventListener('click', function() {
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
