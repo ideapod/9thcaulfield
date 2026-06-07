@@ -171,7 +171,7 @@ img { max-width: 100%; height: auto; display: block; }
    ============================================================ */
 .home-hero {
   position: relative;
-  background: var(--purple-dark) url('/assets/images/header-banner.jpg') center/cover no-repeat;
+  background: var(--purple-dark) url('../images/header-banner.jpg') center/cover no-repeat;
   min-height: 340px;
   display: flex;
   align-items: center;

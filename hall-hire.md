@@ -28,10 +28,10 @@ parties and private events.
 
 <div class="history-images">
   <figure>
-    <img src="/assets/images/hall-1.jpg" alt="Inside the Scout Hall">
+    <img src="{{ '/assets/images/hall-1.jpg' | relative_url }}" alt="Inside the Scout Hall">
   </figure>
   <figure>
-    <img src="/assets/images/hall-2.jpg" alt="Scout Hall kitchen and facilities">
+    <img src="{{ '/assets/images/hall-2.jpg' | relative_url }}" alt="Scout Hall kitchen and facilities">
   </figure>
 </div>
 

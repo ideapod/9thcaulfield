@@ -31,7 +31,7 @@ in the Sealy's home.
 
 <div class="history-images">
   <figure>
-    <img src="/assets/images/firsttroop-1951.jpg"
+    <img src="{{ '/assets/images/firsttroop-1951.jpg' | relative_url }}"
          alt="Members of the first 9th Caulfield Troop, 1951–52">
     <figcaption>Members of the first 9th Caulfield (Murrumbeena) Troop at the Baptist Hall,
     1951–52. L–R: R. Sealy, G. Turnbull, J. Norris, J. Smart, A. Treyvaud, R. Smart</figcaption>
@@ -53,17 +53,17 @@ three years to give every Scout at least one chance to experience the national g
 
 <div class="history-images">
   <figure>
-    <img src="/assets/images/early-jamboree.jpg"
+    <img src="{{ '/assets/images/early-jamboree.jpg' | relative_url }}"
          alt="9th Caulfield Scout Troop at an early Australian Jamboree">
     <figcaption>9th Caulfield Scout Troop at an early Australian Jamboree</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/apollo-bay-camp.jpg"
+    <img src="{{ '/assets/images/apollo-bay-camp.jpg' | relative_url }}"
          alt="Scouts heading to Blanket Bay Camp near Apollo Bay">
     <figcaption>Heading to Blanket Bay Camp, near Apollo Bay</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/yarra-river.jpg"
+    <img src="{{ '/assets/images/yarra-river.jpg' | relative_url }}"
          alt="Scouts enjoying the Yarra River">
     <figcaption>Some of the Troop enjoying the Yarra River</figcaption>
   </figure>
