@@ -401,19 +401,19 @@ img { max-width: 100%; height: auto; display: block; }
 /* ============================================================
    Hall hire
    ============================================================ */
-.hall-features {
+.page-content ul {
   list-style: none;
   padding: 0;
   margin: 1.25rem 0;
 }
 
-.hall-features li {
+.page-content ul li {
   padding: 0.5em 0 0.5em 1.75em;
   position: relative;
   border-bottom: 1px solid var(--border);
 }
 
-.hall-features li::before {
+.page-content ul li::before {
   content: '✓';
   position: absolute;
   left: 0;

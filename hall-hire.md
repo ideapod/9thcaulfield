@@ -12,12 +12,12 @@ groups on a regular, ongoing basis.
 
 ## Facilities
 
-<ul class="hall-features">
-  <li>Spacious main hall — suitable for meetings, classes, and group activities</li>
-  <li>Newly refurbished and renovated kitchen</li>
-  <li>Two oven/stoves and a full-size refrigerator</li>
-  <li>Accessible location near Murrumbeena Station</li>
-</ul>
+- Spacious main hall — suitable for meetings, classes, and group activities
+- Newly refurbished and renovated kitchen
+- Two oven/stoves and a full-size refrigerator
+- Accessible location near Murrumbeena Station
+
+{% include hall-photos.html %}
 
 ## Booking Conditions
 
@@ -25,15 +25,6 @@ We welcome enquiries from community groups for **recurring, long-term hire**.
 
 Please note our hall is **not available for one-off hires** — including birthday
 parties and private events.
-
-<div class="history-images">
-  <figure>
-    <img src="{{ '/assets/images/hall-1.jpg' | relative_url }}" alt="Inside the Scout Hall">
-  </figure>
-  <figure>
-    <img src="{{ '/assets/images/hall-2.jpg' | relative_url }}" alt="Scout Hall kitchen and facilities">
-  </figure>
-</div>
 
 ## Enquire About Hiring
 
