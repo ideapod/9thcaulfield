@@ -47,6 +47,10 @@ Live site after each push: **https://ideapod.github.io/9thcaulfield/** (or https
 
 `contact.md` embeds a Web3Forms form. The access key (`value=` on the hidden `access_key` input) must be a valid UUID obtained from web3forms.com. Submissions are emailed to whichever address was used to register the key.
 
+## Asset paths
+
+The site is served from the root domain (`9thcaulfieldscouts.org.au`) so all asset paths are plain absolute paths e.g. `/assets/images/foo.jpg`. Do not use the `relative_url` Liquid filter — it is not needed and was removed when the custom domain was configured.
+
 ## Markdown in HTML divs
 
 The contact page uses `<div markdown="1">` to enable kramdown processing inside HTML blocks. Other pages that mix HTML and Markdown must do the same if they expect Markdown inside a div to render.
