@@ -29,14 +29,7 @@ the group moved to the old Lauriston Tennis Club, then to the Murrumbeena Baptis
 Church Hall. The Pack met at St Patrick's School Hall, and some meetings were even held
 in the Sealy's home.
 
-<div class="history-images">
-  <figure>
-    <img src="{{ '/assets/images/firsttroop-1951.jpg' | relative_url }}"
-         alt="Members of the first 9th Caulfield Troop, 1951–52">
-    <figcaption>Members of the first 9th Caulfield (Murrumbeena) Troop at the Baptist Hall,
-    1951–52. L–R: R. Sealy, G. Turnbull, J. Norris, J. Smart, A. Treyvaud, R. Smart</figcaption>
-  </figure>
-</div>
+{% include about-photos.html %}
 
 ### Growing into our own hall
 
@@ -45,29 +38,6 @@ brought a surge of new members. The Scout Group acquired a long-term lease on ra
 land in the disused Linear Railway Reserve, near Hughesdale Station. Parents and the
 local community joined forces to fund and build a proper hall, and in **1961** the
 9th Caulfield (Murrumbeena) Scout Group had a home they could call their own.
-
-### Camps and Jamborees
-
-Over the decades, many of our Scouts have attended Australian Jamborees — held every
-three years to give every Scout at least one chance to experience the national gathering.
-
-<div class="history-images">
-  <figure>
-    <img src="{{ '/assets/images/early-jamboree.jpg' | relative_url }}"
-         alt="9th Caulfield Scout Troop at an early Australian Jamboree">
-    <figcaption>9th Caulfield Scout Troop at an early Australian Jamboree</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/images/apollo-bay-camp.jpg' | relative_url }}"
-         alt="Scouts heading to Blanket Bay Camp near Apollo Bay">
-    <figcaption>Heading to Blanket Bay Camp, near Apollo Bay</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/images/yarra-river.jpg' | relative_url }}"
-         alt="Scouts enjoying the Yarra River">
-    <figcaption>Some of the Troop enjoying the Yarra River</figcaption>
-  </figure>
-</div>
 
 ---
 

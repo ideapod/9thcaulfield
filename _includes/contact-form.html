@@ -1,0 +1,40 @@
+<div class="contact-grid">
+
+  <div class="contact-details">
+    <h3>Our details</h3>
+    <p><strong>Email</strong><br>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p><strong>Address</strong><br>
+    20 Ricourt Avenue<br>
+    Murrumbeena VIC 3163</p>
+    <p><strong>Meeting nights</strong><br>
+    Mondays and Tuesdays — see the <a href="{{ '/' | relative_url }}">home page</a> for section times.</p>
+    <hr>
+    <p>We aim to respond within a few days. For urgent matters, please email directly.</p>
+  </div>
+
+  <div class="contact-form">
+    <!-- Web3Forms — sign up at web3forms.com to get an access key -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="2117e8a4-80da-4d73-ac23-0ffcfde46ebb">
+      <input type="hidden" name="subject" value="Website enquiry — 9th Caulfield Scouts">
+      <input type="hidden" name="redirect" value="https://9thcaulfieldscouts.org.au/contact/?thanks=1">
+
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" required placeholder="Jane Smith">
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required placeholder="jane@example.com">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required
+        placeholder="I'd like to find out about joining Scouts…"></textarea>
+
+      <!-- Honeypot spam protection -->
+      <input type="checkbox" name="botcheck" style="display:none">
+
+      <button type="submit">Send message</button>
+    </form>
+  </div>
+
+</div>
