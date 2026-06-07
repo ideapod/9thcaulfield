@@ -15,7 +15,7 @@ a level here that'll suit you.
 
 ## Before you start: get access
 
-The site lives on [GitHub](https://github.com). You'll need a free GitHub account and
+The site lives on [GitHub](https://github.com/ideapod/9thcaulfield. You'll need a free GitHub account and
 write access to the repository. To request access, email
 [Mark Smith](mailto:78-tune-gavotte@icloud.com) with your GitHub username and he'll
 add you as a collaborator.
@@ -89,23 +89,46 @@ little setup but is much more comfortable for larger edits.
 
 - [Git](https://git-scm.com/downloads) — version control
 - [VS Code](https://code.visualstudio.com) — editor
-- Ruby 3.3 and Jekyll — to run the local preview server
+- [rbenv](https://github.com/rbenv/rbenv) — Ruby version manager (Mac)
+- Ruby 3.3.7 and Jekyll — to run the local preview server
+
+### Set up Ruby on Mac
+
+The site requires Ruby 3.3.7 specifically — Ruby 4 is not compatible with Jekyll 4.
+The easiest way to manage Ruby versions on a Mac is rbenv.
+
+1. Install [Homebrew](https://brew.sh) if you don't have it already.
+2. Install rbenv:
+
+   ```bash
+   brew install rbenv ruby-build
+   rbenv init
+   ```
+
+3. Follow the instruction rbenv prints — it will ask you to add a line to your shell
+   profile (`.zshrc` or `.bash_profile`). Do that, then open a new terminal window.
+
+4. Install Ruby 3.3.7:
+
+   ```bash
+   rbenv install 3.3.7
+   ```
+
+   This takes a few minutes. Once done, the `.ruby-version` file in the project will
+   tell rbenv to use 3.3.7 automatically whenever you're in the project folder.
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/9thcaulfield/9thcaulfieldscouts.git
-cd 9thcaulfieldscouts
+git clone https://github.com/ideapod/9thcaulfield.git
+cd 9thcaulfield
 ```
 
 ### Set up Jekyll locally
 
-The site uses Ruby and Jekyll. The easiest way to get the right Ruby version is
-[rbenv](https://github.com/rbenv/rbenv). Follow the rbenv installation guide for your
-operating system, then run:
+With Ruby 3.3.7 installed via rbenv, run the following in the project folder:
 
 ```bash
-rbenv install   # installs the version in .ruby-version
 gem install bundler
 bundle install
 ```
