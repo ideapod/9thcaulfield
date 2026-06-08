@@ -29,6 +29,7 @@ Live site: **https://9thcaulfieldscouts.org.au** — build status visible under 
 - **Layouts**: `default.html` is the shell (head, header, footer). `page.html` extends default and adds a purple hero band with the page title. `newsletter.html` extends default similarly.
 - **Includes**: all presentational HTML lives here. `header.html` contains the sticky nav with a vanilla-JS hamburger toggle. `footer.html` reads `site.email` and `site.address` from `_config.yml` and includes a Google Maps embed. Page-specific HTML blocks follow the pattern `home-hero.html`, `home-sections.html`, `about-photos.html` etc.
 - **Newsletters**: `_newsletters/` is a Jekyll collection. Each file is a dated Markdown file (`YYYY-MM-DD-slug.md`). The index is `newsletters.md` which loops over `site.newsletters`. Adding a new entry requires no config changes — just add the file.
+- **Events**: `_events/` is a Jekyll collection. Each file is a dated Markdown file (`YYYY-MM-DD-slug.md`) with structured front matter (dates, sections, location, address, drop-off/pick-up details) and a Markdown body with `##` sections for Activities, Preparation for Patrol Leads, Patrols, Leaders, and Packing List. The `event.html` layout renders the front matter as a structured summary block with a Google Maps embed, then the Markdown body below. The index is `events.md` which loops over `site.events` sorted by date descending. Past events remain listed.
 - **CSS**: single file `assets/css/main.css`. No preprocessor. CSS custom properties for colours defined at `:root`. Mobile nav uses a `.open` class toggled by the hamburger button in `header.html`.
 - **Images**: all in `assets/images/`. Originated from the WordPress `wp-content/uploads/` mirror (kept locally at `9thcaulfieldscouts.org.au/` but excluded from git and from the Jekyll build via `_config.yml` exclude list).
 
@@ -38,7 +39,7 @@ Live site: **https://9thcaulfieldscouts.org.au** — build status visible under 
 |------|------|
 | `index.md` | Home — includes hero, section tiles, CTA strip |
 | `about.md` | About Us — history narrative, includes photo grids |
-| `events.md` | Events — plain Markdown, one event per `##` heading |
+| `events.md` | Events — index looping over `_events/` collection |
 | `hall-hire.md` | Hall Hire — facilities list, includes hall photos |
 | `contact.md` | Contact Us — includes Web3Forms form + address |
 | `newsletters.md` | Newsletter index — auto-generated from `_newsletters/` |
