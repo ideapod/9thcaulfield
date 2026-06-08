@@ -9,13 +9,23 @@ description: >-
 Keep an eye on this page for upcoming group events, camps, and activities.
 Section leaders will also share details directly with families at weekly meetings.
 
----
-
-## 9th Caulfield Annual Group Camp
-
-**Treetops Scout Camp, Riddells Creek**
-16–18 February 2018
-
----
-
-*To add a new event, copy the block above — a heading with the event name, bold line for the location, and the date(s) below it. Delete this note when you add a real event.*
+{% assign events = site.events | sort: 'date' | reverse %}
+{% if events.size > 0 %}
+<ul class="event-list">
+  {% for event in events %}
+  <li class="event-card">
+    <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
+    <div class="event-card-meta">
+      <span>📅 {{ event.date | date: "%-d %B %Y" }}{% if event.end_date %} – {{ event.end_date | date: "%-d %B %Y" }}{% endif %}</span>
+      {% if event.sections %}<span>👥 {{ event.sections | join: ", " }}</span>{% endif %}
+      {% if event.dropoff_time %}<span>🚗 Drop-off {{ event.dropoff_time }}</span>{% endif %}
+      {% if event.pickup_time %}<span>🏠 Pick-up {{ event.pickup_time }}</span>{% endif %}
+      {% if event.address %}<span>📍 {{ event.address }}</span>{% endif %}
+    </div>
+    {% if event.overview %}<p>{{ event.overview }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+*No events listed at the moment. Check back soon, or [contact us](/contact/) for the latest.*
+{% endif %}

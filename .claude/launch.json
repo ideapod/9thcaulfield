@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "/Users/mark/dev/9thcaulfield/.claude/jekyll-serve.sh",
+      "runtimeArgs": [],
+      "port": 4000
+    }
+  ]
+}

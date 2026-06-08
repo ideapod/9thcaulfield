@@ -13,6 +13,9 @@ collections:
   newsletters:
     output: true
     permalink: /newsletters/:name/
+  events:
+    output: true
+    permalink: /events/:name/
 
 defaults:
   - scope:
@@ -20,6 +23,11 @@ defaults:
       type: "newsletters"
     values:
       layout: newsletter
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: event
 
 # Exclude source files from built site
 exclude:
