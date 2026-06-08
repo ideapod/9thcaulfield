@@ -20,7 +20,7 @@ a level here that'll suit you.
 
 ## Before you start: get access
 
-The site lives on [GitHub](https://github.com/ideapod/9thcaulfield. You'll need a free GitHub account and
+The site lives on [GitHub](https://github.com/ideapod/9thcaulfield). You'll need a free GitHub account and
 write access to the repository. To request access, email
 [Mark Smith](mailto:78-tune-gavotte@icloud.com) with your GitHub username and he'll
 add you as a collaborator.
