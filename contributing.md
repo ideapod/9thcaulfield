@@ -11,6 +11,11 @@ This site is open for contributions from group members, parents, and volunteers.
 Whether you've never touched code before or you're a seasoned developer, there's
 a level here that'll suit you.
 
+- [Before you start: get access](#before-you-start-get-access)
+- [Level 1 — Edit in your browser](#level-1--edit-in-your-browser-no-setup-required)
+- [Level 2 — Edit locally with VS Code](#level-2--edit-locally-with-vs-code)
+- [Level 3 — Use Claude Code](#level-3--use-claude-code)
+
 ---
 
 ## Before you start: get access
