@@ -38,6 +38,13 @@ layout: default
   <p class="event-overview">{{ page.overview }}</p>
   {% endif %}
 
+  {% assign toc_headings = content | split: '<h2' %}
+  {% if toc_headings.size > 1 %}
+  <nav class="event-toc">
+    {% for chunk in toc_headings %}{% if forloop.first %}{% continue %}{% endif %}{% assign id_part = chunk | split: 'id="' | last | split: '"' | first %}{% assign label = chunk | split: '</h2>' | first | split: '>' | last %}<a href="#{{ id_part }}">{{ label }}</a>{% endfor %}
+  </nav>
+  {% endif %}
+
   {% if page.address %}
   <div class="event-map">
     <iframe
