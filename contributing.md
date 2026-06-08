@@ -50,9 +50,75 @@ your update.
 
 ### Add a new event
 
-Events live in `events.md`. Each event is a `##` heading followed by Markdown text.
-To add one, edit `events.md` and copy the pattern of an existing event — add your new
-`##` heading and description wherever it fits chronologically.
+Each event is its own file inside the `_events/` folder, named `YYYY-MM-DD-slug.md`
+(e.g. `2026-08-10-spring-camp.md`). To add one:
+
+1. Navigate to the `_events/` folder in the repository.
+2. Click **Add file → Create new file**.
+3. Name the file using the date format above.
+4. Paste this starter block at the top, fill in the details, then write the event
+   content in Markdown below it:
+
+```
+---
+title: Spring Camp
+date: 2026-08-10
+end_date: 2026-08-12
+sections:
+  - Scouts
+  - Cubs
+location: Gilwell Park Scout Camp
+address: 27 Graysharps Road, Gembrook VIC 3783
+overview: >-
+  A weekend camp at Gilwell Park focusing on outdoor skills and team challenges.
+dropoff_time: Friday 10 Aug, 6:00 pm
+dropoff_location: The Scout Hall, 20 Ricourt Ave Murrumbeena
+pickup_time: Sunday 12 Aug, 2:00 pm
+pickup_location: Gilwell Park Scout Camp, Gembrook
+---
+
+## Activities
+
+- List activities here
+
+## Preparation for Patrol Leads
+
+Notes for patrol leads.
+
+## Preparation for Patrols
+
+What Scouts need to know and bring.
+
+## Preparation for Leaders
+
+Logistics notes for leaders.
+
+## Packing List
+
+### Clothing
+- Uniform shirt
+- Warm layers
+- Waterproof jacket
+- Sturdy shoes or boots
+- Hat and sunglasses
+
+### Sleeping
+- Sleeping bag (rated to at least 5°C)
+- Sleeping mat
+
+### Personal items
+- Water bottle (at least 1 litre)
+- Sunscreen and insect repellent
+- Personal medication (notify leaders)
+- Torch and spare batteries
+
+### Food & cooking
+- Patrol food as assigned
+- Mug, plate, and cutlery
+```
+
+5. Commit the file. The event will appear automatically on the Events page with its
+   own detail page, including a map of the location. Past events remain listed.
 
 ### Add a newsletter
 
@@ -66,9 +132,9 @@ Newsletters are individual files inside the `_newsletters/` folder, named
 
 ```
 ---
-layout: newsletter
 title: "Your Newsletter Title"
 date: 2026-03-01
+excerpt: One sentence summary shown on the newsletters index page.
 ---
 
 Newsletter content goes here...
