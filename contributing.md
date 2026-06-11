@@ -20,13 +20,38 @@ a level here that'll suit you.
 
 ## Before you start: get access
 
-The site lives on [GitHub](https://github.com/ideapod/9thcaulfield). You'll need a free GitHub account and
-write access to the repository. To request access, email
+Source code control systems have been around for ever and the de-facto standard is [Git](https://git-scm.com). [GitHub](https://github.com) provides a place in the cloud for the code so that git can be used to control change to the code. 
+
+git makes it easy for multiple people to make changes to a code base. 9th Caulfield's website code is now on github: [9thCaulfield](https://github.com/ideapod/9thcaulfield). 
+
+You'll need a free GitHub account and write access to the repository. To request access, email
 [Mark Smith](mailto:78-tune-gavotte@icloud.com) with your GitHub username and he'll
 add you as a collaborator.
 
 Don't have a GitHub account yet? Head to [github.com](https://github.com) and sign up
 — it takes about two minutes.
+
+### Clone the repository
+
+For level 1 you don't need a local copy of the code. But for level 2 and 3, you need a local copy to work on. You get it by "cloning" the repository
+
+```bash
+git clone https://github.com/ideapod/9thcaulfield.git
+cd 9thcaulfield
+```
+
+### Commit code changes
+
+Once you have made a change locally using either level 2 or 3 you need to save the change to your local code base using commit, and then 'push' the changes up to the cloud:
+
+```bash
+git add -A
+git commit -m "Brief description of what you changed"
+git push
+```
+
+The live site updates automatically once your push lands on `main`, using the magic of [GitHub Actions](https://github.com/ideapod/9thcaulfield/actions). 
+
 
 ---
 
@@ -142,6 +167,7 @@ Newsletter content goes here...
 
 5. Commit the file. The newsletter will appear automatically on the Newsletters page.
 
+
 ### Upload an image
 
 1. Navigate to `assets/images/` in the repository.
@@ -158,7 +184,7 @@ little setup but is much more comfortable for larger edits.
 
 ### What you'll need
 
-- [Git](https://git-scm.com/downloads) — version control
+- a local code repository (see [Git set up](#before-you-start-get-access))
 - [VS Code](https://code.visualstudio.com) — editor
 - [rbenv](https://github.com/rbenv/rbenv) — Ruby version manager (Mac)
 - Ruby 3.3.7 and Jekyll — to run the local preview server
@@ -188,12 +214,6 @@ The easiest way to manage Ruby versions on a Mac is rbenv.
    This takes a few minutes. Once done, the `.ruby-version` file in the project will
    tell rbenv to use 3.3.7 automatically whenever you're in the project folder.
 
-### Clone the repository
-
-```bash
-git clone https://github.com/ideapod/9thcaulfield.git
-cd 9thcaulfield
-```
 
 ### Set up Jekyll locally
 
@@ -218,15 +238,8 @@ for file changes and rebuilds automatically — just refresh your browser.
 
 ### Make changes and push
 
-Edit files in VS Code, check the preview, then commit and push:
+Edit files in VS Code, check the preview, then [commit and push](#commit-code-changes).
 
-```bash
-git add -A
-git commit -m "Brief description of what you changed"
-git push
-```
-
-The live site updates automatically once your push lands on `main`.
 
 ---
 
@@ -237,22 +250,26 @@ to the site based on plain English instructions. It's great when you want to do
 something more involved — restructure a page, tweak the styling, or add a new section —
 but you're not sure exactly how to write the code.
 
-### What it looks like in practice
+### Getting started
 
-You open the project folder in the Claude Code desktop app and describe what you want:
+Clone a local repository (see [Git set up](#before-you-start-get-access))
+
+Download the [Claude Code desktop app](https://claude.ai/download) and sign in with
+an Anthropic account. 
+
+Once installed, open the app and use **File → Open Folder** to
+open your local copy of the site repository. 
+
+### How to make changes using claude code
+
+Open the project folder in the Claude Code desktop app and describe what you want:
 
 > "Add a new section to the Events page for the end-of-year camp. It should have a
 > heading, a two-paragraph description, and link to the contact page for registrations."
 
 Claude Code reads the relevant files, makes the edits, and shows you a diff before
-anything is saved. You can review, ask it to adjust, and then commit when you're happy.
+anything is saved. You can review, ask it to adjust, and then [commit and push](#commit-code-changes) when you're happy.
 
-### Getting started
-
-Download the [Claude Code desktop app](https://claude.ai/download) and sign in with
-an Anthropic account. Once installed, open the app and use **File → Open Folder** to
-open your local copy of the site repository. Then just describe what you'd like to
-change in plain English.
 
 ---
 
