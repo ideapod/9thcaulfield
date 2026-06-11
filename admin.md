@@ -12,7 +12,7 @@ sitemap: false
 
 You both have Edit access to the Google Drive folder below, which is for both the overall Group and also the discrete Units of Scouts & Venturers. We inherited this folder from many years ago and have continued to maintain it.
 
-[https://drive.google.com/drive/folders/1HU2kohCNfubIp7amuzviF9-TCgczC8IT?usp=sharing](https://drive.google.com/drive/folders/1HU2kohCNfubIp7amuzviF9-TCgczC8IT?usp=sharing)
+Talk to mark for drive link. 
 
 The key structure of the folders is as follows:
 
