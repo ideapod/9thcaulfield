@@ -8,6 +8,10 @@ description: >-
 sitemap: false
 ---
 
+## Email & Collaboration (Zoho)
+
+See [Email & Collaboration (Zoho)](/zoho-how-to/) for how our group email addresses, shared drive, calendar, tasks and notes fit together.
+
 ## Google Shared Drive
 
 You both have Edit access to the Google Drive folder below, which is for both the overall Group and also the discrete Units of Scouts & Venturers. We inherited this folder from many years ago and have continued to maintain it.
