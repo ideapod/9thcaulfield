@@ -23,6 +23,7 @@ pickup_location: Treetops Scout Camp, Riddells Creek
 - Campfire cooking
 - Wide games
 - Pioneering projects
+- Go Karting
 
 ## Preparation for Patrol Leads
 
