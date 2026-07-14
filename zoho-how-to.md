@@ -16,9 +16,9 @@ Each committee member and leader has an individual mailbox (e.g. `firstname@9thc
 
 Please use this address for group business rather than a personal Gmail/Hotmail/etc. address — that's what makes everything below work.
 
-## Role-based addresses
+## Role-based shared mailboxes
 
-As well as your personal mailbox, a set of role-based addresses exist for the positions in the group:
+As well as your personal mailbox, each role in the group has its own **shared mailbox (Collaborative Inbox)**:
 
 - `president@`
 - `groupleader@`
@@ -29,7 +29,9 @@ As well as your personal mailbox, a set of role-based addresses exist for the po
 - `scouts@`
 - `venturers@`
 
-These are free "Group" aliases — mail sent to them is forwarded straight to whoever currently holds that role (so `cubs@` and `groupleader@` might both land in the same inbox if one person holds both positions). The advantage is that these addresses never change. We can publish `secretary@9thcaulfieldscouts.org.au` on the website and in TeamApp permanently — when someone takes over as secretary, we just update where the alias forwards to. Nobody needs to be told a new address, and old emails to that role stay reachable by the new person.
+A shared mailbox has its own persistent inbox, separate from anyone's personal email. If you hold a role, that mailbox appears in your Zoho sidebar alongside your personal one. You can read emails there and reply from it — replies go out as the role address (e.g. `treasurer@9thcaulfieldscouts.org.au`), not as your personal address. Someone can hold multiple roles and access multiple shared mailboxes from the same login.
+
+The reason we use shared mailboxes rather than simple forwarding aliases is continuity. The inbox belongs to the role, not to the individual. When a volunteer moves on and someone new steps into the role, they're added to the shared mailbox and immediately see the entire email history — no migration, no forwarding, nothing lost. The address itself never changes, so there's no need to update it anywhere.
 
 ## Shared Drive (WorkDrive)
 
@@ -68,4 +70,4 @@ Zoho Vault is a shared password manager for logins that belong to the group rath
 
 ## Getting help
 
-If you're not sure how to access any of the above, or need your account set up, contact `groupleader@9thcaulfieldscouts.org.au`.
+If you're not sure how to access any of the above, or need your account set up, contact `helpdesk@9thcaulfieldscouts.org.au`.
