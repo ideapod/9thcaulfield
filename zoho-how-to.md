@@ -8,13 +8,13 @@ description: >-
 sitemap: false
 ---
 
-This page explains how our group's email and collaboration tools fit together, under our own domain (`9thcaulfieldscouts.org.au`) via Zoho Workplace. The goal is simple: group business should live in shared, group-owned accounts — not in individuals' personal email and Drive — so that when someone hands over a role, the next person can pick up where they left off.
+This page explains how our group's email and collaboration tools fit together, under our own domain (`9thcaulfieldscouts.org.au`) via [Zoho Workplace](https://workplace.zoho.com.au/#dashboard/). The goal is simple: group business should live in shared, group-owned accounts — not in individuals' personal email and Drive — so that when someone hands over a role, the next person can pick up where they left off.
 
 ## Your email address
 
-Each committee member and leader has an individual mailbox (e.g. `firstname@9thcaulfieldscouts.org.au`). Log in at [mail.zoho.com](https://mail.zoho.com) with the details you were given when your account was created. The Zoho Mail app is available for iOS and Android if you'd like it on your phone.
+Each committee member and leader has an individual mailbox (e.g. `firstname.lastname@9thcaulfieldscouts.org.au`). Log in at workplace above, or the mail app: [mail.zoho.com](https://mail.zoho.com) with the details you were given when your account was created. The [Zoho Mail app](https://www.zoho.com/mail/mobile/) is available for iOS and Android if you'd like it on your phone.
 
-Please use this address for group business rather than a personal Gmail/Hotmail/etc. address — that's what makes everything below work.
+Please use this address for group business rather than a personal Gmail/Hotmail/etc. address — that's what makes everything below work. 
 
 ## Role-based shared mailboxes
 
@@ -32,6 +32,9 @@ As well as your personal mailbox, each role in the group has its own **shared ma
 A shared mailbox has its own persistent inbox, separate from anyone's personal email. If you hold a role, that mailbox appears in your Zoho sidebar alongside your personal one. You can read emails there and reply from it — replies go out as the role address (e.g. `treasurer@9thcaulfieldscouts.org.au`), not as your personal address. Someone can hold multiple roles and access multiple shared mailboxes from the same login.
 
 The reason we use shared mailboxes rather than simple forwarding aliases is continuity. The inbox belongs to the role, not to the individual. When a volunteer moves on and someone new steps into the role, they're added to the shared mailbox and immediately see the entire email history — no migration, no forwarding, nothing lost. The address itself never changes, so there's no need to update it anywhere.
+
+To send an email from the role based email, you can change the 'from' address in an email to be from the shared group. see documentation on the [sending mail page](https://www.zoho.com/mail/help/sending-mails.html). 
+
 
 ## Shared Drive (WorkDrive)
 
