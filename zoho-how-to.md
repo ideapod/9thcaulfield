@@ -16,24 +16,37 @@ Each committee member and leader has an individual mailbox (e.g. `firstname.last
 
 Please use this address for group business rather than a personal Gmail/Hotmail/etc. address — that's what makes everything below work. 
 
-## Role-based shared mailboxes
+## Group email addresses: distribution lists vs shared mailboxes
 
-As well as your personal mailbox, each role in the group has its own **shared mailbox (Collaborative Inbox)**:
+Beyond your personal mailbox, the group uses two different kinds of group address, and it matters which one is used where:
+
+- A **distribution list** just fans incoming mail out to a set of people's personal inboxes — it doesn't keep a copy of its own, and nobody sends or replies "as" the list.
+- A **shared mailbox** has its own persistent inbox that a group of people can read and reply from as that address.
+
+### Distribution lists
+
+Use these when a group of people simply needs to be copied on incoming mail, with no need to retain a shared history or reply as the group:
+
+- `committee@`
+- `leaders@`
+
+### Shared mailboxes (Collaborative Inboxes)
+
+Use these when incoming mail should be retained as a group resource, and a group of people needs to be able to reply as the role/address itself:
 
 - `president@`
-- `groupleader@`
-- `secretary@`
 - `treasurer@`
-- `joeys@`
-- `cubs@`
 - `scouts@`
-- `venturers@`
+- `cubs@`
+- `joeys@`
+- `helpdesk@`
+- `enquiries@`
 
-A shared mailbox has its own persistent inbox, separate from anyone's personal email. If you hold a role, that mailbox appears in your Zoho sidebar alongside your personal one. You can read emails there and reply from it — replies go out as the role address (e.g. `treasurer@9thcaulfieldscouts.org.au`), not as your personal address. Someone can hold multiple roles and access multiple shared mailboxes from the same login.
+A shared mailbox has its own persistent inbox, separate from anyone's personal email. If you have access, that mailbox appears in your Zoho sidebar alongside your personal one. You can read emails there and reply from it — replies go out as the shared address (e.g. `treasurer@9thcaulfieldscouts.org.au`), not as your personal address. Someone can have access to multiple shared mailboxes from the same login.
 
 The reason we use shared mailboxes rather than simple forwarding aliases is continuity. The inbox belongs to the role, not to the individual. When a volunteer moves on and someone new steps into the role, they're added to the shared mailbox and immediately see the entire email history — no migration, no forwarding, nothing lost. The address itself never changes, so there's no need to update it anywhere.
 
-To send an email from the role based email, you can change the 'from' address in an email to be from the shared group. see documentation on the [sending mail page](https://www.zoho.com/mail/help/sending-mails.html). 
+To send an email from the shared mailbox address, you can change the 'from' address in an email to be from the shared group. see documentation on the [sending mail page](https://www.zoho.com/mail/help/sending-mails.html). 
 
 
 ## Shared Drive (WorkDrive)
